@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            Desine<span>Lab</span>
+        </div>
+
+        <div class="menu">
+            <a href="">Home</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills-container">Skills</a>
+            <a href="#contact-container">Contact</a>
+        </div>
+
+        <div class="sub">
+            <a href="sub.html"><button>Subscribe Us</button></a>
+        </div>
+    </nav>
+
+    <section class="h-txt">
+        <div class="left">
+                        <p>I'm a</p>
+            <h1>Front End Deve<span style="color: skyblue;">loper</span></h1>
+                  <br>                 <br>
+            
+               <p><b>Hello! I'am Chirag Mahakal, <br> a passionate student with a focus on web development and user experience desing.<br>
+                    I will hold a Bachelor's degree in Information Technology from Mumbai University.<br>
+                    Where I developed a strong foundation in programming languages such as javascript, python, and HTML/CSS. </b>
+                </p>
+            
+            <a href="resume.jpeg"><button>DownLoad Resume</button></a>
+        </div>
+
+        <div class="right">
+            <img src="logo.jpeg" alt="">
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>PROJECTS</h2>
+        <div class="projects">
+            <img src="art.jpeg" alt="Project 1">
+            <p><b>The Online Art Gallery project aims to create a digital platform where artists can showcase their artworks and connect with art enthusiasts and potential buyers online. The platform provides a user-friendly interface for browsing, discovering, and purchasing artworks across various genres, styles, and mediums. </b>
+            </p>
+            <p>github Repository : https://chiragdon123.github.io/ArtGallery/ </p>
+        </div>
+        <div class="projects">
+            <img src="cal.jpeg" alt="Project 2">
+            <p> <b>The Simple Calculator project aims to create a basic yet functional calculator application that performs arithmetic operations such as addition, subtraction, multiplication, and division. This project serves as a fundamental exercise in building a user interface for performing mathematical calculations.</b></p>
+            <p>github Repository : https://chiragdon123.github.io/calculator/ </p>
+
+        </div>
+    </section>
+
+    <section id="skills-container">
+        <h2>SKILLS</h2>
+        <p><b>Technical Skill:</b><br>
+           <b> programming languages :</b> python, java.<br>
+           <b> Web development : </b> HTML and css <br>
+           <b> Database Management : </b> MySQL<br>
+           <b> Version Control : </b> GutHub <br>
+           <b> Operating System : </b> macos, window.
+        </p>
+    </section>
+
+    <br>
+    <br>
+    <br>
+
+    <section id="contact-container">
+        <h2>CONTACT</h2>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</body>
+</html>
